@@ -1,13 +1,100 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #232327;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.App {
+  min-width: 20rem;
+  border: none;
+  border-radius: 1rem;
+  max-width: 50%;
+  margin: 3rem auto;
+  background-color: #1d1b22;
+  color: white;
+  font-family: "Robot", sans-serif;
+}
+
+.info-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-img {
+  width: 100%;
+  height: 40vw;
+  min-height: 20rem;
+  max-height: 40rem;
+  object-fit: cover;
+  object-position: center center;
+  border: none;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.info-name {
+  margin: 1em 0 0.1em 0;
+}
+
+.info-job-title {
+  font-size: 0.7rem;
+  color: #f89880;
+}
+
+.info-portfolio {
+  margin-block: 1em;
+}
+
+.info-button {
+  font-size: 1rem;
+  width: 9em;
+  height: 2em;
+  margin: 0 1em;
+  border: none;
+  border-radius: 0.3em;
+}
+
+.info-button:hover {
+  cursor: pointer;
+}
+
+.info-button i {
+  margin-right: 0.4em;
+}
+
+.blue-button {
+  background-color: #4169e1;
+  color: white;
+}
+
+.container {
+  padding: 2em 3em 0 3em;
+}
+
+.container-header {
+  font-weight: 300;
+}
+
+.paragraph {
+  margin-top: 0.5em;
+  font-size: 0.8rem;
+  color: rgb(139, 139, 139);
+}
+
+footer {
+  background-color: #141419;
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 0 0 1rem 1rem;
 }
